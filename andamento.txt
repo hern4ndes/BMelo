@@ -1,0 +1,31 @@
+
+criação da modelagem - ok
+criação do banco - ok
+migração do projeto para o codeigniter - ok
+login -ok
+validação de administrador -ok
+
+site
+	mensagem - ok
+	categoria -ok
+	slider -ok
+	institucional -ok
+	produto -ok
+	testimonial -ok
+	noticia -ok
+	interessado - ok
+	home - ok
+	detalhe notícia -ok
+	produtos_categoria -ok
+
+
+administrador
+	mensagem - ok
+	categoria - ok
+	slider - ok
+	institucional -ok
+	produto -ok
+	testimonial - ok
+	usuario	- ok
+	noticia - ok
+	interessado - ok

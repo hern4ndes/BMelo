@@ -1,0 +1,14 @@
+-------ftp------------------------------
+-File protocol: FTP                    -
+-Host name: ftp.bmelofilho.com.br      -
+-Encryption: No encryption             -
+-Port number: 21                       -
+-Username: bmelofilho1                 -
+-Password: admin1970                   -                                      -
+-------locaweb--------------------------
+-usuario: flaviomelo1970               -
+-senha: admin1970                      -
+--------email---------------------------
+-E-mail: contato@bmelofilho.com.br     -
+-password: #admin1970*                 -
+----------------------------------------

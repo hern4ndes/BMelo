@@ -1,0 +1,142 @@
+footer {
+	background-image: url(../images/footer-bg.jpg);
+	padding: 70px 0px;
+	h2 {
+		margin-bottom: 25px;
+		margin-top: 20px;
+		font-family: @primary-font;
+		font-size: 14px;
+		letter-spacing: 0.5px;
+		color: @white;
+		text-transform: uppercase;
+	}
+	.about-us {
+		p {
+			margin-top: 30px;
+		}
+	}
+	.company-pages {
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			display: inline-block;
+			li {
+				padding-bottom: 10px;
+				margin-bottom: 10px;
+				border-bottom: 1px dashed #4a4a4a;
+				width: 100%;
+				a {
+					color: @text-color-two;
+					font-family: @primary-font;
+					font-size: 12px;
+				}
+				i {
+					color: @text-color-two;
+					margin-right: 10px;
+				}
+			}
+			li:hover a{
+				color: @accent-color;
+			}
+			li:hover i{
+				color: @accent-color;
+			}
+		}
+		.first-list {
+			margin-top: 5px;
+			margin-right: 50px;
+			float: left;
+		}
+		.second-list {
+			margin-top: 5px;
+			margin-right: 0px;
+		}
+	}
+	.recent-posts {
+		.recent-item {
+			display: inline-block;
+			margin-top: 4px;
+			img {
+				border-radius: 5px;
+				max-width: 100%;
+			}
+		}
+	}
+	.subscribe-us {
+		input {
+			border: 1px solid #3e3e3e;
+			border-radius: 5px;
+			margin-bottom: 25px;
+			background-color: #353535;
+			width: 100%;
+			padding-left: 35px;
+			font-family: @primary-font;
+			font-size: 12px;
+			color: @text-color;
+			height: 40px;
+			outline: none;
+		}
+
+		input[class='email'] {
+		    background-image: url(../images/mail-icon.png);
+		    background-position: 10px;
+		    background-repeat: no-repeat;
+		}
+		.check-box {
+			input[type="checkbox"] {
+			    display:none;
+			}
+			input[type="checkbox"] + label {
+			    display:inline;
+			    width:12px;
+			    height:16px;
+			    margin:-1px 4px 0 0;
+			    background :url(../images/check-box.png) left top no-repeat;
+			    cursor:pointer;
+			}
+			label {
+				padding-left: 22px;
+				display: inline-block;
+				font-family: @primary-font;
+				font-size: 12px;
+				color: #b0b0b0;
+				font-weight: 400;
+				text-decoration: underline;
+			}
+			input[type="checkbox"]:checked + label {
+			    background:url(../images/checked-box.png) 0px top no-repeat;
+			}
+		}
+		.accent-button {
+			margin-top: 25px;
+		}
+	}
+}
+
+#sub-footer {
+	background-color: #282828;
+	height: 60px;
+	p {
+		line-height: 60px;
+		font-size: 12px;
+		color: #828282;
+	}
+	ul {
+		float: right;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-left: 15px;
+			line-height: 60px;
+			a {
+				color: @white;
+			}
+			a:hover {
+				color: @accent-color;
+			}
+		}
+	}
+}
